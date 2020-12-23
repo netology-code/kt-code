@@ -20,7 +20,7 @@ fun calculatePrice(
         itemPrice: Int = 100,
         discount: Int = 100,
         discountStart: Int = 1_000,
-        userLevel: String = "normal"
+        userLevel: String = "normal",
 ): Int {
     val total = itemPrice * itemCount
     val discounted = if (total > discountStart) total - discount else total
