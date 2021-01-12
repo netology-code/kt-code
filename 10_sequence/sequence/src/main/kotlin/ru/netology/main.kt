@@ -28,11 +28,12 @@ fun main() {
     val emptyDigestContent = "Digest is empty"
 
     val topDigest = posts
-            .filter { it.likes >= topBoundary }
-            .take(topCount)
-            .joinToString(separator = "\n") { it.content }
-            .ifEmpty { emptyDigestContent }
-            .let { Post(0, PostType.DIGEST, it) }
+        .filter { it.likes >= topBoundary }
+        .take(topCount)
+        .map { it.content }
+        .joinToString("\n")
+        .ifEmpty { emptyDigestContent }
+        .let { Post(0, PostType.DIGEST, it) }
 
 
     println(topDigest)
