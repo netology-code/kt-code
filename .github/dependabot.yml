@@ -1,0 +1,98 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/01_intro/intro"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
+- package-ecosystem: gradle
+  directory: "/02_types/types"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
+- package-ecosystem: gradle
+  directory: "/03_control/fun"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
+- package-ecosystem: gradle
+  directory: "/03_control/if_else"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
+- package-ecosystem: gradle
+  directory: "/03_control/when"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
+- package-ecosystem: gradle
+  directory: "/04_tests/tests"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
+- package-ecosystem: gradle
+  directory: "/05_oop/oop"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
+- package-ecosystem: gradle
+  directory: "/06_oop/oop"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
+- package-ecosystem: gradle
+  directory: "/07_exceptions/exceptions"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
+- package-ecosystem: gradle
+  directory: "/08_collections/collections"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
+- package-ecosystem: gradle
+  directory: "/09_lambda/lambda"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
+- package-ecosystem: gradle
+  directory: "/10_sequence/sequence"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Onotole1
