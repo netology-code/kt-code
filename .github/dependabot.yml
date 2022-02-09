@@ -5,11 +5,17 @@ registries:
     url: https://maven.google.com
     username: ""
     password: ""
+  maven-central:
+    type: maven-repository
+    url: https://repo1.maven.org/maven2
+    username: ""
+    password: ""
 updates:
 - package-ecosystem: gradle
   directory: "/01_intro/intro"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
@@ -20,6 +26,7 @@ updates:
   directory: "/02_types/types"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
@@ -30,6 +37,7 @@ updates:
   directory: "/03_control/fun"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
@@ -40,6 +48,7 @@ updates:
   directory: "/03_control/if_else"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
@@ -50,6 +59,7 @@ updates:
   directory: "/03_control/when"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
@@ -60,6 +70,7 @@ updates:
   directory: "/04_tests/tests"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
@@ -70,6 +81,7 @@ updates:
   directory: "/05_oop/oop"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
@@ -80,6 +92,7 @@ updates:
   directory: "/06_oop/oop"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
@@ -90,6 +103,7 @@ updates:
   directory: "/07_exceptions/exceptions"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
@@ -100,6 +114,7 @@ updates:
   directory: "/08_collections/collections"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
@@ -110,6 +125,7 @@ updates:
   directory: "/09_lambda/lambda"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
@@ -120,6 +136,7 @@ updates:
   directory: "/10_sequence/sequence"
   registries:
       - maven-google
+      - maven-central
   schedule:
     interval: daily
     time: "02:00"
