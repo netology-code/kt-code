@@ -1,7 +1,7 @@
 package ru.netology.inheritance.init
 
 open class Parent(open val prop: String) {
-    val value = prop.toUpperCase()
+    val value = prop.uppercase()
 
     init {
         println(value)

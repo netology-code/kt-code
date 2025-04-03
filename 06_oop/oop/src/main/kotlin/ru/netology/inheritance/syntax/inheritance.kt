@@ -9,7 +9,7 @@ package ru.netology.inheritance.syntax
 //class GrandChild (override val prop: String) : Child(prop)
 
 open class Parent(open val prop: String) {
-    val value = prop.toUpperCase()
+    val value = prop.uppercase()
 
     init {
         println(value)
